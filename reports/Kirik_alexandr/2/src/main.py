@@ -80,7 +80,7 @@ def classification_solution() -> None:
     X_train, X_test, y_train, y_test = train_test_split(
             bank_dataset[features],
             bank_dataset[TARGET].values.ravel(),
-            test_size=0.66,
+            test_size=0.25,
             random_state=42
     )
 
